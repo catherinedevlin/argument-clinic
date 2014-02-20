@@ -7,7 +7,7 @@ req_file_path = '../../requirements.txt'
 # actual directory for execution was /home/catherine/proj/argument-clinic/argumentclinic/docs/dexy/.dexy/work/85/853c355a6eed8b5fab5bbf05c0d3dd8f-001-py
 
 req_file_path = os.path.abspath(os.path.join(argumentclinic.__file__, '../../requirements.txt'))
-reqs = parse_requirements(req_file_path)
+reqs = list(parse_requirements(req_file_path))
 
 def requirements_met():
     result = []
