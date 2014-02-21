@@ -1,5 +1,4 @@
 .rst|jinja|rstbody|easyhtml:
-    - .py|py:
-        - .py
+    - .py|py
     - .bash|bash
         
