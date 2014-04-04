@@ -1,1 +1,1 @@
-ipython nbconvert --to slides --post serve pytn.ipynb 
+ipython nbconvert --to slides --template big_slides --post serve pytn.ipynb 
