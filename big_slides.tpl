@@ -45,6 +45,9 @@
 
 <title>{{resources['metadata']['name']}} slides</title>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
 <!-- General and theme style sheets -->
 <link rel="stylesheet" href="{{resources.reveal.url_prefix}}/css/reveal.css">
 <link rel="stylesheet" href="{{resources.reveal.url_prefix}}/css/theme/simple.css" id="theme">
@@ -71,6 +74,15 @@ document.write( '<link rel="stylesheet" href="{{resources.reveal.url_prefix}}/cs
 {% endfor %}
 
 <style type="text/css">
+
+div.input_area pre {
+  font-size: 20px !important;
+}
+
+div.output_area pre {
+  font-size: 20px !important;
+}
+
 /* Overrides of notebook CSS for static HTML export */
 html {
   overflow-y: auto;
@@ -106,6 +118,7 @@ html {
 }
 div.input_area {
   padding: 0.06em;
+  font-size: 220% !important;
 }
 div.code_cell {
   background-color: transparent;
