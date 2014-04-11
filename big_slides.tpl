@@ -76,11 +76,13 @@ document.write( '<link rel="stylesheet" href="{{resources.reveal.url_prefix}}/cs
 <style type="text/css">
 
 div.input_area pre {
-  font-size: 20px !important;
+  font-size: 18px !important;
+  line-height: 24px !important;
 }
 
 div.output_area pre {
-  font-size: 20px !important;
+  font-size: 18px !important;
+  line-height: 24px !important;
 }
 
 /* Overrides of notebook CSS for static HTML export */
@@ -88,7 +90,8 @@ html {
   overflow-y: auto;
 }
 .reveal {
-  font-size: 160%;
+  #font-size: 160%;
+  font-size: 240%;
 }
 .reveal pre {
   width: inherit;
